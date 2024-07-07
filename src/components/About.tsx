@@ -70,47 +70,49 @@ export default function About() {
       </div>
 
       <div className="max-w-4xl">
-        <Paragraph className=" mt-4">
-          Hey there, I&apos;m John Doe - a passionate developer, avid writer,
-          and a connoisseur of awesome design. Welcome to my corner of the
-          digital world!
+        <Paragraph className="mt-4">
+          Hey there, I&apos;m Mohammed Ali - a passionate Java backend and
+          frontend developer with over 15 years of experience in crafting robust
+          and scalable applications. Welcome to my digital space!
         </Paragraph>
-        <Paragraph className=" mt-4">
-          Since the early days of my journey, I&apos;ve been captivated by the
-          art of crafting exceptional digital experiences. As a developer, I
-          thrive on turning lines of code into functional and elegant solutions.
-          My goal is to not just create software, but to build digital marvels
-          that seamlessly merge form and function.
+        <Paragraph className="mt-4">
+          From the early days of my career, I&apos;ve been enthralled by the
+          intricacies of building exceptional software solutions. As a seasoned
+          developer, I thrive on transforming complex requirements into
+          efficient and elegant code. My aim is not just to write programs but
+          to engineer digital masterpieces that deliver seamless performance and
+          superior functionality.
         </Paragraph>
-
-        <Paragraph className=" mt-4">
-          But my journey doesn&apos;t stop at coding. With a heart full of words
-          and a mind brimming with ideas, I&apos;ve ventured into the realm of
-          writing. From tech articles that unravel complex concepts to creative
-          tales that ignite the imagination, I weave words to inform, entertain,
-          and inspire.
+        <Paragraph className="mt-4">
+          My journey goes beyond backend development. With a strong foundation
+          in frontend technologies, I create intuitive and visually appealing
+          user interfaces. I believe that a great application is one that merges
+          technical excellence with an outstanding user experience, ensuring
+          that every line of code contributes to the overall aesthetic and
+          usability.
         </Paragraph>
-        <Paragraph className=" mt-4">
-          What sets me apart is my unwavering appreciation for design. I believe
-          that aesthetics and usability go hand in hand. My eye for awesome
-          design ensures that every project I undertake not only works
-          flawlessly under the hood but also looks stunning on the surface.
+        <Paragraph className="mt-4">
+          My skill set spans across various technologies including Java, Spring,
+          Spring Boot, Hibernate, React, Angular, and TypeScript. I have a deep
+          appreciation for both backend and frontend development, and I strive
+          to ensure that every project I work on not only performs flawlessly
+          but also looks stunning.
         </Paragraph>
-        <Paragraph className=" mt-4">
-          Through this website, I aim to share my insights, experiences, and
-          creations with you. Whether you&apos;re a fellow developer seeking
-          solutions, a fellow writer in search of inspiration, or simply someone
-          who appreciates the finer aspects of design, there&apos;s something
-          here for you.
+        <Paragraph className="mt-4">
+          Through this website, I aim to share my knowledge, experiences, and
+          creations with you. Whether you&apos;re a developer looking for
+          innovative solutions, a tech enthusiast seeking inspiration, or
+          someone who values quality design, you&apos;ll find something of
+          interest here.
         </Paragraph>
-        <Paragraph className=" mt-4">
-          Join me on this journey of bytes and narratives, logic and creativity,
-          code and prose. Together, we can explore the boundless possibilities
-          of technology and storytelling, all while reveling in the sheer beauty
-          of thoughtful design.
+        <Paragraph className="mt-4">
+          Join me on this journey of code and creativity, logic and design,
+          backend and frontend. Together, we can explore the endless
+          possibilities of technology, all while appreciating the beauty of
+          well-crafted software.
         </Paragraph>
-        <Paragraph className=" mt-4">
-          Thank you for being here, and I can&apos;t wait to embark on this
+        <Paragraph className="mt-4">
+          Thank you for visiting, and I look forward to embarking on this
           adventure with you.
         </Paragraph>
       </div>

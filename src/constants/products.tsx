@@ -1,34 +1,47 @@
 export const products = [
   {
     href: "https://aceternity.com",
-    title: "Aceternity",
+    title: "Data Access Layer",
     description:
-      "A design and development studio that focuses on building quality apps.",
-    thumbnail: "/images/sidefolio-aceternity.png",
+      "DAL helps you make better decisions with fast access to all your data, without the complexity of data movement and copies.",
+    thumbnail: "/images/personal/sep-cluster-screen.png",
     images: [
-      "/images/sidefolio-aceternity.png",
-      "/images/sidefolio-aceternity-2.png",
+      // "/images/sidefolio-aceternity.png",
+      // "/images/sidefolio-aceternity-2.png",
     ],
     stack: ["Nextjs", "Tailwindcss"],
     slug: "aceternity",
     content: (
       <div>
         <p>
-          Sit eiusmod ex mollit sit quis ad deserunt. Sint aliqua aliqua ullamco
-          dolore nulla amet tempor sunt est ipsum. Dolor laborum eiusmod
-          cupidatat consectetur velit ipsum. Deserunt nisi in culpa laboris
-          cupidatat elit velit aute mollit nisi. Officia ad exercitation laboris
-          non cupidatat duis esse velit ut culpa et.{" "}
+          The solution empowers organizations to seamlessly query and analyze
+          data across diverse sources. It provides a high-performance SQL engine
+          capable of querying vast datasets with low latency. This allows users
+          to perform complex analytics and derive actionable insights quickly.
+          The system integrates with a variety of data sources, including
+          relational databases, NoSQL stores, and cloud-based data lakes,
+          ensuring flexibility and scalability in data management.{" "}
         </p>
         <p>
-          Exercitation pariatur enim occaecat adipisicing nostrud adipisicing
-          Lorem tempor ullamco exercitation quis et dolor sint. Adipisicing sunt
-          sit aute fugiat incididunt nostrud consequat proident fugiat id.
-          Officia aliquip laborum labore eu culpa dolor reprehenderit eu ex enim
-          reprehenderit. Cillum Lorem veniam eu magna exercitation.
-          Reprehenderit adipisicing minim et officia enim et veniam Lorem
-          excepteur velit adipisicing et Lorem magna.
-        </p>{" "}
+          Users can leverage a unified interface to manage and query their data
+          without worrying about the underlying infrastructure. Advanced
+          optimization techniques enhance query performance, making it suitable
+          for real-time data processing and analytics. The platform's extensible
+          architecture allows for easy integration of custom connectors and
+          functions, adapting to evolving business needs. Robust security
+          features ensure data privacy and compliance, supporting
+          enterprise-grade deployments.{" "}
+        </p>
+        <p>
+          The solution's user-friendly design caters to both technical and
+          non-technical users, promoting collaboration across teams. Its
+          open-source foundation fosters community contributions, driving
+          continuous innovation and improvements. With built-in monitoring and
+          troubleshooting tools, users can maintain optimal system performance
+          and quickly address issues. The platform also supports multi-tenancy,
+          enabling efficient resource allocation and isolation in shared
+          environments.{" "}
+        </p>
       </div>
     ),
   },
