@@ -1,6 +1,6 @@
 export const products = [
   {
-    // href: "https://aceternity.com",
+    href: "",
     title: "Data Access Layer",
     description:
       "DAL helps you make better decisions with fast access to all your data, without the complexity of data movement and copies.",
@@ -34,14 +34,14 @@ export const products = [
           Users can leverage a unified interface to manage and query their data
           without worrying about the underlying infrastructure. Advanced
           optimization techniques enhance query performance, making it suitable
-          for real-time data processing and analytics. The platform's extensible
-          architecture allows for easy integration of custom connectors and
-          functions, adapting to evolving business needs. Robust security
-          features ensure data privacy and compliance, supporting
+          for real-time data processing and analytics. The platform&apos;s
+          extensible architecture allows for easy integration of custom
+          connectors and functions, adapting to evolving business needs. Robust
+          security features ensure data privacy and compliance, supporting
           enterprise-grade deployments.{" "}
         </p>
         <p>
-          The solution's user-friendly design caters to both technical and
+          The solution&apos;s user-friendly design caters to both technical and
           non-technical users, promoting collaboration across teams. Its
           open-source foundation fosters community contributions, driving
           continuous innovation and improvements. With built-in monitoring and
@@ -84,20 +84,21 @@ export const products = [
         </p>
         <p>
           Users benefit from detailed performance reports that highlight
-          bottlenecks and suggest optimizations. PerfAI's user-friendly
+          bottlenecks and suggest optimizations. PerfAI&apos;s user-friendly
           interface allows teams to set up and run performance tests with
           minimal effort. By simulating real-world user behavior, the platform
           ensures that applications can handle peak loads and deliver a smooth
           user experience.{" "}
         </p>
         <p>
-          The platform's AI algorithms analyze test results to identify trends
-          and potential issues before they impact end-users. PerfAI supports a
-          wide range of web technologies, making it a versatile tool for any
-          development stack. With its focus on automation and intelligence,
-          PerfAI helps teams achieve faster release cycles and higher quality
-          standards. The platform also offers robust integration options,
-          allowing it to fit seamlessly into diverse development workflows.{" "}
+          The platform&apos;s AI algorithms analyze test results to identify
+          trends and potential issues before they impact end-users. PerfAI
+          supports a wide range of web technologies, making it a versatile tool
+          for any development stack. With its focus on automation and
+          intelligence, PerfAI helps teams achieve faster release cycles and
+          higher quality standards. The platform also offers robust integration
+          options, allowing it to fit seamlessly into diverse development
+          workflows.{" "}
         </p>
       </div>
     ),
@@ -132,9 +133,9 @@ export const products = [
           APIsec provides a comprehensive platform for securing APIs, ensuring
           robust protection against vulnerabilities and threats. The platform
           automates security testing for APIs, enabling developers to identify
-          and remediate security issues early in the development cycle. APIsec's
-          continuous monitoring capabilities help maintain the security posture
-          of APIs throughout their lifecycle.{" "}
+          and remediate security issues early in the development cycle.
+          APIsec&apos;s continuous monitoring capabilities help maintain the
+          security posture of APIs throughout their lifecycle.{" "}
         </p>
         <p>
           Users benefit from detailed reports that highlight vulnerabilities,
@@ -147,25 +148,25 @@ export const products = [
         <p>
           APIsec supports a wide range of API protocols and technologies, making
           it a versatile solution for diverse development environments. The
-          platform's user-friendly interface and powerful automation
+          platform&apos;s user-friendly interface and powerful automation
           capabilities help teams secure their APIs with minimal manual effort.
           With APIsec, organizations can ensure their APIs are resilient against
           attacks, comply with security standards, and deliver safe and reliable
           services to users.{" "}
         </p>
         <p>
-          Additionally, APIsec's integration options allow for smooth adoption
-          into existing workflows, enhancing the overall security framework
-          without disrupting development processes. The platform provides
-          real-time alerts and notifications, enabling quick responses to
-          potential threats.{" "}
+          Additionally, APIsec&apos;s integration options allow for smooth
+          adoption into existing workflows, enhancing the overall security
+          framework without disrupting development processes. The platform
+          provides real-time alerts and notifications, enabling quick responses
+          to potential threats.{" "}
         </p>
         <p>
           The robust analytics and reporting tools offer in-depth visibility
           into the security health of APIs, helping organizations make informed
           decisions. By focusing on proactive security measures, APIsec aids in
           mitigating risks before they escalate into significant issues. The
-          platform's adaptability and scalability make it suitable for
+          platform&apos;s adaptability and scalability make it suitable for
           organizations of all sizes, ensuring comprehensive API security
           management.{" "}
         </p>
@@ -174,7 +175,7 @@ export const products = [
   },
   {
     href: "https://dchq.io/",
-    title: "DCHQ Enterprise Apps. Simplified.",
+    title: "Enterprise Apps Simplified.",
     description:
       "Cloud Automation. Ridiculously Flexible. Reduce Costs. Access Controls. Your Fastest Way to IT Modernization. Empowering Cloud Ninjas.",
     thumbnail: "/images/personal/turing/dch1_1.png",
@@ -207,36 +208,38 @@ export const products = [
           different environments, ensuring consistency and reliability.{" "}
         </p>
         <p>
-          Users benefit from DCHQ's intuitive interface, which enables easy
+          Users benefit from DCHQ&apos;s intuitive interface, which enables easy
           configuration and monitoring of containerized applications. The
           platform supports automated scaling, load balancing, and self-healing,
-          ensuring applications run smoothly and efficiently. DCHQ's integration
-          with various CI/CD tools facilitates continuous delivery, allowing for
-          faster and more frequent releases.{" "}
+          ensuring applications run smoothly and efficiently. DCHQ&apos;s
+          integration with various CI/CD tools facilitates continuous delivery,
+          allowing for faster and more frequent releases.{" "}
         </p>
         <p>
-          The platform's advanced security features ensure that applications are
-          protected throughout their lifecycle. DCHQ provides comprehensive
-          monitoring and logging capabilities, offering deep insights into
-          application performance and resource utilization. With its multi-cloud
-          support, DCHQ enables organizations to deploy applications on any
-          cloud provider, enhancing flexibility and reducing vendor lock-in.{" "}
+          The platform&apos;s advanced security features ensure that
+          applications are protected throughout their lifecycle. DCHQ provides
+          comprehensive monitoring and logging capabilities, offering deep
+          insights into application performance and resource utilization. With
+          its multi-cloud support, DCHQ enables organizations to deploy
+          applications on any cloud provider, enhancing flexibility and reducing
+          vendor lock-in.{" "}
         </p>
         <p>
           Additionally, DCHQ offers powerful automation tools that reduce manual
-          intervention and enhance operational efficiency. The platform's
+          intervention and enhance operational efficiency. The platform&apos;s
           support for custom templates and blueprints allows for reusable and
           consistent application deployments. By integrating seamlessly with
           existing infrastructure, DCHQ helps organizations optimize their
           resources and streamline their DevOps processes.{" "}
         </p>
         <p>
-          DCHQ's collaborative features promote teamwork by allowing multiple
-          users to manage and monitor applications concurrently. The platform's
-          real-time analytics and alerts enable proactive management, helping
-          teams to address issues before they impact end-users. With its
-          comprehensive feature set, DCHQ empowers organizations to manage their
-          containerized applications with ease and confidence.{" "}
+          DCHQ&apos;s collaborative features promote teamwork by allowing
+          multiple users to manage and monitor applications concurrently. The
+          platform&apos;s real-time analytics and alerts enable proactive
+          management, helping teams to address issues before they impact
+          end-users. With its comprehensive feature set, DCHQ empowers
+          organizations to manage their containerized applications with ease and
+          confidence.{" "}
         </p>
       </div>
     ),
