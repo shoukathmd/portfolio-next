@@ -1,14 +1,13 @@
 export const personalProjectsData = [
   {
-    title: "Personal Portfolio",
+    title: "Jobify",
     description:
-      "A personal portfolio website to showcase my skills and projects.",
-    thumbnail: "/images/personal/turing/perfai_1.png",
-    images: ["/images/personal/turing/perfai_1.png"], // Add more image URLs if available
-    href: "https://myportfolio.vercel.app",
-    stack: ["Next.js", "React", "Tailwind CSS"],
-    content:
-      "Check out the <a href='https://github.com/username/portfolio' target='_blank' rel='noopener noreferrer'>GitHub repository</a>",
+      "A personal Job Tracking App to showcase my skills and projects.",
+    thumbnail: "/images/personal/jobify/thumbnail.png",
+    images: ["/images/personal/jobify/thumbnail.png"], // Add more image URLs if available
+    href: "https://job-application-tracker.vercel.app",
+    stack: ["Next.js", "React", "Typescript", "Tailwind CSS"],
+    content: "https://github.com/shoukathmd/job-application-tracker.git",
     slug: "personal-portfolio",
   },
   {
@@ -18,8 +17,7 @@ export const personalProjectsData = [
     images: ["/images/personal/turing/perfai_1.png"], // Add more image URLs if available
     href: "https://mystore.vercel.app",
     stack: ["Next.js", "MongoDB", "Express", "Node.js"],
-    content:
-      "Check out the <a href='https://github.com/username/ecommerce-store' target='_blank' rel='noopener noreferrer'>GitHub repository</a>",
+    content: "https://github.com/username/ecommerce-store",
     slug: "e-commerce-store",
   },
   {
@@ -30,8 +28,7 @@ export const personalProjectsData = [
     images: ["/images/personal/turing/perfai_1.png"], // Add more image URLs if available
     href: "https://myblog.vercel.app",
     stack: ["Next.js", "Markdown", "Prisma", "SQLite"],
-    content:
-      "Check out the <a href='https://github.com/username/blog-platform' target='_blank' rel='noopener noreferrer'>GitHub repository</a>",
+    content: "https://github.com/username/blog-platform",
     slug: "blog-platform",
   },
   {
@@ -41,8 +38,7 @@ export const personalProjectsData = [
     images: ["/images/personal/turing/perfai_1.png"], // Add more image URLs if available
     href: "https://mychatapp.vercel.app",
     stack: ["Next.js", "WebSockets", "Node.js"],
-    content:
-      "Check out the <a href='https://github.com/username/chat-application' target='_blank' rel='noopener noreferrer'>GitHub repository</a>",
+    content: "https://github.com/username/chat-application",
     slug: "chat-application",
   },
   {
@@ -52,8 +48,7 @@ export const personalProjectsData = [
     images: ["/images/personal/turing/perfai_1.png"], // Add more image URLs if available
     href: "https://taskmanager.vercel.app",
     stack: ["Next.js", "React", "Firebase"],
-    content:
-      "Check out the <a href='https://github.com/username/task-manager' target='_blank' rel='noopener noreferrer'>GitHub repository</a>",
+    content: "https://github.com/username/task-manager",
     slug: "task-manager",
   },
 ];

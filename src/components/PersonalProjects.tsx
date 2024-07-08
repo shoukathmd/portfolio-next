@@ -54,6 +54,9 @@ export const PersonalProjects = () => {
                     <Paragraph className="text-sm md:text-sm lg:text-sm mt-2 max-w-xl">
                       {personalProject.description}
                     </Paragraph>
+                    <Paragraph className="text-sm md:text-sm lg:text-sm mt-2 max-w-xl">
+                      {personalProject.content}
+                    </Paragraph>
                   </div>
                   <div className="flex space-x-2 md:mb-1 mt-2 md:mt-0">
                     {personalProject.stack?.map((stack: string) => (
