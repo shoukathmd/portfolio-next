@@ -56,7 +56,7 @@ export const certifications = [
     image_url: "/images/personal/turing/Google_UX.png",
   },
   {
-    name: "Computer Software Engineering",
+    name: "Masters in Computer Software Engineering",
     issuer: "Scaler",
     issue_date: "Jun 2022",
     image_url: "/images/personal/turing/scaler.jpeg",
