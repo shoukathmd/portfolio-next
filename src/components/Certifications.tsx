@@ -41,13 +41,13 @@ const Certifications = () => {
                 width="220"
                 className="rounded-md"
               />
-              <p>Issued: {certification.issue_date}</p>
-              {certification.expiry_date && (
+              <p className="mt-6 ml-10">Issued: {certification.issue_date}</p>
+              {/* {certification.expiry_date && (
                 <p>Expires: {certification.expiry_date}</p>
-              )}
-              {certification.credential_id && (
+              )} */}
+              {/* {certification.credential_id && (
                 <p>Credential ID: {certification.credential_id}</p>
-              )}
+              )} */}
             </CardContent>
           </Card>
         </motion.div>
