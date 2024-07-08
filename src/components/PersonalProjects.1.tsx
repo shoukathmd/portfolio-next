@@ -1,12 +1,11 @@
 "use client";
 import React from "react";
-import { Heading } from "./Heading"; // Ensure the correct path
-import { personalProjectsData } from "@/constants/personalprojects"; // Ensure the correct path
-import Link from "next/link";
+import { Heading } from "./Heading";
+import { personalProjectsData } from "@/constants/personalprojects";
 import Image from "next/image";
-import { Paragraph } from "./Paragraph"; // Ensure the correct path
+import { Paragraph } from "./Paragraph";
 import { motion } from "framer-motion";
-import { PersonalProjectType } from "@/types/personalproject"; // Ensure the correct path
+import { PersonalProjectType } from "@/types/personalproject";
 import { IconExternalLink } from "@tabler/icons-react";
 
 export const PersonalProjects = () => {
@@ -28,14 +27,14 @@ export const PersonalProjects = () => {
               transition={{ duration: 0.2, delay: idx * 0.1 }}
             >
               {/* <Link
-                href={
-                  personalProject.slug
-                    ? `/${personalProject.slug}`
-                    : personalProject.href
-                }
-                key={personalProject.href}
-                className="group flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 hover:bg-gray-50 rounded-2xl transition duration-200 pt-4"
-              > */}
+                      href={
+                        personalProject.slug
+                          ? `/${personalProject.slug}`
+                          : personalProject.href
+                      }
+                      key={personalProject.href}
+                      className="group flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 hover:bg-gray-50 rounded-2xl transition duration-200 pt-4"
+                    > */}
               <div className="group flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 hover:bg-gray-50 rounded-2xl transition duration-200 pt-4">
                 <Image
                   src={personalProject.thumbnail}

@@ -6,5 +6,5 @@ export type PersonalProjectType = {
   href: string;
   slug?: string;
   stack?: string[];
-  content?: React.ReactNode | string;
+  content?: string;
 };

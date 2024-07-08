@@ -11,12 +11,12 @@ export const personalProjectsData = [
     slug: "personal-portfolio",
   },
   {
-    title: "E-commerce Store",
-    description: "An e-commerce store built with Next.js and MongoDB.",
-    thumbnail: "/images/personal/turing/perfai_1.png",
+    title: "Shadcn Dashboard",
+    description: "Simple dashboard using Shadcn component library.",
+    thumbnail: "/images/personal/shadcndashboard/thumbnail.png",
     images: ["/images/personal/turing/perfai_1.png"], // Add more image URLs if available
-    href: "https://mystore.vercel.app",
-    stack: ["Next.js", "MongoDB", "Express", "Node.js"],
+    href: "https://shadcn-dashboard-ruddy.vercel.app/",
+    stack: ["Next.js", "Tailwind", "Shadcn"],
     content: "https://github.com/username/ecommerce-store",
     slug: "e-commerce-store",
   },
