@@ -17,7 +17,7 @@ export const personalProjectsData = [
     images: ["/images/personal/turing/perfai_1.png"], // Add more image URLs if available
     href: "https://shadcn-dashboard-ruddy.vercel.app/",
     stack: ["Next.js", "Tailwind", "Shadcn"],
-    content: "https://github.com/username/ecommerce-store",
+    content: "https://github.com/shoukathmd/shadcn-dashboard",
     slug: "e-commerce-store",
   },
   {

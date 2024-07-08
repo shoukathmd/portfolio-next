@@ -2,7 +2,7 @@
 import Certifications from "@/components/Certifications";
 import { Container } from "@/components/Container";
 import { Heading } from "@/components/Heading";
-import { PersonalProjects } from "@/components/PersonalProjects.1";
+import { PersonalProjects } from "@/components/PersonalProjects";
 
 const ProjectsPage = () => {
   return (
