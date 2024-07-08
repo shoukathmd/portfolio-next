@@ -15,14 +15,37 @@ const defaultFormState = {
     error: "",
   },
 };
+
 export const Contact = () => {
   const [formData, setFormData] = useState(defaultFormState);
+  const [status, setStatus] = useState("");
 
-  const handleSubmit = (e: any) => {
+  const handleSubmit = async (e: any) => {
     e.preventDefault();
-    // Write your submit logic here
-    console.log(formData);
+
+    const res = await fetch("/api/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        name: formData.name.value,
+        email: formData.email.value,
+        message: formData.message.value,
+      }),
+    });
+
+    const result = await res.json();
+
+    if (result.success) {
+      setStatus("Email sent successfully!");
+      setFormData(defaultFormState); // Reset form
+    } else {
+      setStatus("Error sending email.");
+    }
+    console.log(result);
   };
+
   return (
     <form className="form" onSubmit={handleSubmit}>
       <div className="flex flex-col md:flex-row justify-between gap-5">
@@ -78,8 +101,9 @@ export const Contact = () => {
         className="w-full px-2 py-2 mt-4 bg-neutral-100 rounded-md font-bold text-neutral-500"
         type="submit"
       >
-        Submit{" "}
+        Submit
       </button>
+      {status && <p className="mt-4 text-sm text-red-500">{status}</p>}
     </form>
   );
 };
