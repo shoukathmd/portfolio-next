@@ -34,20 +34,24 @@ const Certifications = () => {
               <CardDescription>{certification.issuer}</CardDescription>
             </CardHeader>
             <CardContent>
-              <Image
-                src={certification.image_url}
-                alt={`${certification.name} badge`}
-                height="220"
-                width="220"
-                className="rounded-md"
-              />
-              <p className="mt-6 ml-10">Issued: {certification.issue_date}</p>
-              {/* {certification.expiry_date && (
+              <div className="">
+                <Image
+                  src={certification.image_url}
+                  alt={`${certification.name} badge`}
+                  height="220"
+                  width="220"
+                  className="rounded-md mx-auto"
+                />
+                <p className="mt-6 text-center">
+                  Issued: {certification.issue_date}
+                </p>
+                {/* {certification.expiry_date && (
                 <p>Expires: {certification.expiry_date}</p>
               )} */}
-              {/* {certification.credential_id && (
+                {/* {certification.credential_id && (
                 <p>Credential ID: {certification.credential_id}</p>
               )} */}
+              </div>
             </CardContent>
           </Card>
         </motion.div>
